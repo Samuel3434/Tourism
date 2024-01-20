@@ -1,11 +1,7 @@
 body{
   margin: 0;
   color: white;
-  /* background-color: black; */
   overflow-x: hidden;
-  width: 100%;
-  padding-bottom:100px;
-
 }
 .airplane{
   width: 400px;
@@ -36,9 +32,7 @@ body{
       top: -1000px;
       right: -1000px;
       transition: 2s;
-
   }
-  
 }
 @keyframes airplane2 {
   to{
@@ -47,7 +41,6 @@ body{
     top:-100px;
     transition: 3s;
   }
-  
 }
 .accordion-body{
   font-size: small;
@@ -74,8 +67,6 @@ section{
 .blue{
   background:#3c31dd;
   margin-bottom: 200px;
-  
-
 }
 .red{
   background: #dd3f31;
@@ -145,7 +136,6 @@ section{
   transform: translate(-4%,-60%);
   z-index: 1;
   background-color: #2196f3;
-
 }
 
 .btn-outline-dark{
@@ -155,14 +145,3 @@ section{
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-/* .bubble::before{
-  content: '';
-  border-top-right-radius: 50% 100%;
-  border-top-left-radius: 50%  100%;
-  position: absolute;
-  bottom: 0;
-  height: 85%;
-  width: 100%;
-  background-color: #;
-
-} */

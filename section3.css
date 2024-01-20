@@ -1,15 +1,13 @@
 .section3 {
   margin: 0 10px;
-
+  margin-bottom: 60px;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 2.5fr 1fr;
-  grid-template-areas: 'double single';
   row-gap: 10px;
   column-gap: 20px;
-  /* min-height: 80vh; */
 }
 .section3 .card{
   position: relative;
@@ -23,15 +21,12 @@
   background-color: black;
 }
 .section3 .C1{
-  grid-area: double;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* border-radius: 20px; */
   
 }
 .section3 .C2{
-  grid-area:single;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,13 +36,10 @@
   height: 100%;
   position: relative;
   background: #232949;
-  /* margin-left: 10px; */
-  /* border-radius: 15px; */
   border-top-left-radius: 0;
   flex: 1;
   background-color: #232949;
   border-left: none;
-  /* margin-left: -20px; */
 }
 .section3 .C1 .imgBox{
   position: relative;
@@ -59,7 +51,6 @@
   background-size: cover;
   background-position: 50%;
   flex: 2.5;
-  
 }
 .section3 .C2 .content{
 
@@ -71,7 +62,6 @@
   border-radius: 15px;
   border-top-left-radius: 0;
   flex: 1;
-  
 }
 .section3 .C2 .imgBox{
   position: relative;
@@ -82,10 +72,10 @@
   background-image: url('../Images/1690045656485.jpeg');
   background-size: cover;
   background-position: 50%;
+  margin-bottom: -10px;
   flex: 2;
 }
 .section3 .C1 .content .before{
-  /* content: 'Ethiopai Tourist site'; */
   margin-top: 0;
   content: '';
   position: absolute;
@@ -98,12 +88,11 @@
   border-left: 10px solid #232949; 
   border-right: 10px solid #232949;
   border-bottom-left-radius: 10%;
-  
   display: grid;
   place-content: center;
   background-color: #232949;
   color: white;
-
+  font-weight: bold;
 }
 .section3 .C2 .content .before{
   content: '';
@@ -120,4 +109,5 @@
   display: grid;
   place-content: center;
   color: white;
+  font-weight: bold;
 }
